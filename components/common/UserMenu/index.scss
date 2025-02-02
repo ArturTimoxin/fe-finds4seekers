@@ -1,0 +1,36 @@
+.account-page-wrap {
+    display: flex;
+    width: 75%;
+    margin: 50px auto 200px auto;
+    @media screen and (max-width: 1366px) {
+        width: 85%;
+    }
+    @media screen and (max-width: 1000px) {
+        width: 95%;
+    }
+}
+
+.account-content-wrap {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.user-menu {
+    height: 500px;
+    position: sticky;
+    top: 10px;
+    @media screen and (max-width: 1200px) {
+        width: 15em !important;
+    }
+    @media screen and (max-width: 800px) {
+        display: none !important;
+    }
+}
+
+.logout-menu-item {
+    position: absolute !important;
+    bottom: 0;
+    width: 100%;
+}

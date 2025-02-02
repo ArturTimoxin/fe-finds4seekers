@@ -1,0 +1,178 @@
+.wrap-register-ad-page {
+    position: relative;
+}
+
+.register-point-map-container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin-top: -20px;
+    z-index: 0;
+}
+
+.wrap-register-ad-form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+    @media screen and (max-width: 1096px) {
+        margin-bottom: 100px;
+    }
+} 
+
+.register-ad-form {
+    position: absolute;
+    top: -100px;
+    width: 75%;
+    border-radius: 7px;
+    min-height: 400px;
+    background-color:  #f8f8f8;
+    z-index: 10;
+    box-shadow: 5px 20px 50px rgba(0, 0, 0, 0.5);
+    padding: 40px 40px 20px 40px;
+    color: #464947;
+    display: flex;
+    @media screen and (max-width: 1366px) {
+        width: 85%;
+    }
+    @media screen and (max-width: 1096px) {
+        width: 85%;
+        flex-direction: column;
+    }
+}
+
+.reg-form-main-column-wrap {
+    width: 65%;
+    min-width: 300px;
+    min-width: 427px;
+    @media screen and (max-width: 1096px) {
+        width: 100%;
+    }
+}
+
+.wrap-head-reg-form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    @media screen and (max-width: 1096px) {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .title-register-ad-form {
+        text-transform: uppercase;
+        margin: 0;
+    }
+    .choose-type-text {
+        margin-left: 20px;
+        font-size: 20px;
+        min-width: 210px;
+        @media screen and (max-width: 1698px) {
+            margin-left: 0px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.chose-type-ad-btn {
+    margin-left: 20px !important;
+}
+
+.reg-form-fields {
+    margin-top: 20px;
+}
+
+.reg-form-label {
+    font-size: 20px;
+}
+
+.reg-form-subcolumn-wrap {
+    width: 35%;
+    min-width: 375px;
+    margin-left: 50px;
+    padding: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @media screen and (max-width: 1096px) {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+}
+
+.upload-photos {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.choose-photos-wrap {
+    cursor: pointer;
+}
+
+.choose-photos-input {
+    display: flex;
+    width: 100%;
+    min-height: 290px;
+    justify-content: space-between;
+    .main-photo-input {
+        width: 65%;
+        height: 290px;
+        border: 3px solid #57bf99;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .sub-photos-inputs-wrap {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .sub-photo-input {
+            height: 140px;
+            border: 3px solid #57bf99;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+    }
+    .photo-preview {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .plus-icon {
+        width: 60px;
+    }
+}
+
+.submit-reg-ad-form-btn {
+    width: 100%;
+}
+
+.wrap-user-info-fields {
+    margin-bottom: 2em;
+}
+
+.subinfo-text-form {
+    margin: 10px 0px 0px 0px;
+    color: #5a5a5b;
+    font-size: 12px;
+}
+
+.type-ad-picker-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.react-datepicker-wrapper {
+    width: 100%;
+}

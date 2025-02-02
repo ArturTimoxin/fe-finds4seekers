@@ -1,0 +1,22 @@
+.wrap-list-ads {
+    width: 70%;
+    margin: 70px auto 250px auto;
+    @media screen and (max-width: 1366px) {
+        width: 80%;
+    }
+}
+
+.wrap-pagination-ad-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.title-search-ad {
+    margin-left: 3px;
+    text-transform: uppercase;
+}
+
+.not-fond-ads-message {
+    text-align: center;
+}
