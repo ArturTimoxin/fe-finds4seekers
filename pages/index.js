@@ -1,7 +1,13 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import { actions } from "../store";
-import MapMainPage from "../components/main/MapMainPage";
+import dynamic from "next/dynamic";
+
+const MapMainPage = dynamic(() => import("../components/main/MapMainPage"), {
+  ssr: false,
+});
+
+// import MapMainPage from "../components/main/MapMainPage";
 import NewAdCard from "../components/main/NewAdCard";
 import getFormatedDate from "../utils/getFormatedDate";
 import Link from "next/link";

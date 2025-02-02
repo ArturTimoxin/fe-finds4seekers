@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Header from "../Header";
 import Footer from "../Footer";
-import TabLogo from "../../../assets/logo.png";
+import TabLogo from "../../../public/images/logo.png";
 
 const Layout = ({ children }) => {
   return (

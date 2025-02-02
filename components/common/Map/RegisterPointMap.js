@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import GoogleMap from "google-map-react";
+// import GoogleMap from "google-map-react";
 import Point from "./Point";
 import SearchBox from "./SearchBox";
 import axios from "axios";
@@ -47,7 +47,7 @@ const RegisterPointMap = ({
         placeholder={"Find place..."}
         onPlacesChanged={onChangeSeacrhBox}
       />
-      <GoogleMap
+      {/* <GoogleMap
         bootstrapURLKeys={{ key: process.env.GOOGLE_MAPS_API_KEY }}
         defaultCenter={defaultCenter}
         defaultZoom={defaultZoom}
@@ -58,7 +58,7 @@ const RegisterPointMap = ({
         {point.lat && point.lng && (
           <Point typeAd={typeAd} lat={point.lat} lng={point.lng} />
         )}
-      </GoogleMap>
+      </GoogleMap> */}
     </div>
   );
 };
