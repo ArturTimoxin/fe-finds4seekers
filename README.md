@@ -146,3 +146,4 @@ For more details, refer to the [Next.js deployment documentation](https://nextjs
 - Images storing in CDN
 - Improve data search perfomance (elastic search?)
 - Swagger Docs
+-
