@@ -125,3 +125,24 @@ This project can be deployed to various platforms, such as Vercel, Netlify, or a
    ```
 
 For more details, refer to the [Next.js deployment documentation](https://nextjs.org/docs/deployment).
+
+# Future Plans
+
+## FE
+
+- Upgrade project to the newest next.js/react versions
+- Configurations for eslint/prettier
+- TypeScript integration
+- Replace Google Maps with Laflet/Mapbox (check git branch laflet, partially done)
+- Add Marker Clusterization ([Google Maps example](https://visgl.github.io/react-google-maps/examples/marker-clustering) [Code][https://github.com/visgl/react-google-maps/blob/main/examples/marker-clustering/src/trees.ts])
+- Add Mobile layouts adaptation
+- Deploy to domain
+- Create iOS/Android mobile app using Flutter
+
+## BE
+
+- Update to the new version of node.js and nest.js
+- Consider to use GeoJSON format for storing
+- Images storing in CDN
+- Improve data search perfomance (elastic search?)
+- Swagger Docs
